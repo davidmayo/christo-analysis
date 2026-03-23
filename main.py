@@ -1,6 +1,5 @@
-def main():
-    print("Hello from christo-analysis!")
+from pathlib import Path
 
+ROOT_DIR = Path(__file__).parent.expanduser().resolve()
 
-if __name__ == "__main__":
-    main()
+DATA_DIR = ROOT_DIR / "data"

@@ -1,0 +1,167 @@
+{
+    "short_description": "Regolith 1, full occlusion, experiment 1",
+    "long_description": "Regolith 1, full occlusion, experiment 1",
+    "relative_folder_path": null,
+    "grid": null,
+    "cuts": {
+        "horizontal-20-left-to-right": {
+            "direction": "horizontal",
+            "start_angle": -180.0,
+            "end_angle": 180.0,
+            "step_size": 0.5,
+            "fixed_angle": 20.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-15-right-to-left": {
+            "direction": "horizontal",
+            "start_angle": 180.0,
+            "end_angle": -180.0,
+            "step_size": 0.5,
+            "fixed_angle": 15.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-10-left-to-right": {
+            "direction": "horizontal",
+            "start_angle": -180.0,
+            "end_angle": 180.0,
+            "step_size": 0.5,
+            "fixed_angle": 10.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-5-right-to-left": {
+            "direction": "horizontal",
+            "start_angle": 180.0,
+            "end_angle": -180.0,
+            "step_size": 0.5,
+            "fixed_angle": 5.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-0-left-to-right": {
+            "direction": "horizontal",
+            "start_angle": -180.0,
+            "end_angle": 180.0,
+            "step_size": 0.5,
+            "fixed_angle": 0.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-neg5-right-to-left": {
+            "direction": "horizontal",
+            "start_angle": 180.0,
+            "end_angle": -180.0,
+            "step_size": 0.5,
+            "fixed_angle": -5.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-neg10-left-to-right": {
+            "direction": "horizontal",
+            "start_angle": -180.0,
+            "end_angle": 180.0,
+            "step_size": 0.5,
+            "fixed_angle": -10.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-neg15-right-to-left": {
+            "direction": "horizontal",
+            "start_angle": 180.0,
+            "end_angle": -180.0,
+            "step_size": 0.5,
+            "fixed_angle": -15.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "horizontal-neg20-left-to-right": {
+            "direction": "horizontal",
+            "start_angle": -180.0,
+            "end_angle": 180.0,
+            "step_size": 0.5,
+            "fixed_angle": -20.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "vertical-neg10-down-to-up": {
+            "direction": "vertical",
+            "start_angle": -45.0,
+            "end_angle": 45.0,
+            "step_size": 0.5,
+            "fixed_angle": -10.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "vertical-neg5-up-to-down": {
+            "direction": "vertical",
+            "start_angle": 45.0,
+            "end_angle": -45.0,
+            "step_size": 0.5,
+            "fixed_angle": -5.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "vertical-0-down-to-up": {
+            "direction": "vertical",
+            "start_angle": -45.0,
+            "end_angle": 45.0,
+            "step_size": 0.5,
+            "fixed_angle": 0.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "vertical-pos5-up-to-down": {
+            "direction": "vertical",
+            "start_angle": 45.0,
+            "end_angle": -45.0,
+            "step_size": 0.5,
+            "fixed_angle": 5.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        },
+        "vertical-pos10-down-to-up": {
+            "direction": "vertical",
+            "start_angle": -45.0,
+            "end_angle": 45.0,
+            "step_size": 0.5,
+            "fixed_angle": 10.0,
+            "reset_before": false,
+            "neutral_elevation": 0
+        }
+    },
+    "sig_gen_config": {
+        "center_frequency": 8457300000.0,
+        "power": 10.0,
+        "vernier_power": 0.0
+    },
+    "spec_an_config": {
+        "initial_center_frequency": 8457300000.0,
+        "spans_when_searching": [
+            1000000.0,
+            100000.0,
+            10000.0,
+            1000.0
+        ],
+        "reference_level": -40.0,
+        "amplitude_units": null,
+        "resolution_bandwidth": null,
+        "video_bandwidth": null,
+        "center_frequency": null,
+        "minimum_frequency": null,
+        "maximum_frequency": null,
+        "span": null,
+        "serial_number": null,
+        "gpib_timeout_ms": null,
+        "sweep_time": null
+    },
+    "polarization_config": {
+        "kind": "horizontal"
+    },
+    "log_level": "DEBUG",
+    "neutral_elevation": 0.0,
+    "collect_center_frequency_data": true,
+    "collect_peak_data": true,
+    "collect_trace_data": true
+}
